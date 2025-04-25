@@ -1,77 +1,65 @@
-🛒 Walmart Sales Dashboard
-A dynamic Power BI dashboard to visualize and analyze Walmart's sales performance across different branches and product lines. This project provides key insights into sales, customer behavior, and payment trends, helping stakeholders make data-driven decisions.
+# 📊 Walmart Sales Dashboard
 
-📊 Dashboard Overview
-The dashboard includes the following key components:
+An interactive Power BI dashboard that provides insightful visualizations of Walmart’s sales data across various dimensions like region, product categories, customer demographics, and revenue metrics. This project helps uncover trends and patterns essential for strategic decision-making.
 
-Total Sales, Quantity, and Profit overview
+---
 
-Sales by Branch (A, B, C)
+## 🧾 Dataset Overview
 
-Sales by City (Yangon, Naypyitaw, Mandalay)
+- **Records**: 113,036 entries  
+- **Time Range**: 2011–2016  
+- **Format**: CSV
 
-Payment Method Distribution
+### 📌 Key Features
 
-Product Line Performance
+- Customer demographics (Age, Gender, Region)
+- Sales metrics (Revenue, Profit, Cost)
+- Product breakdowns (Category, Sub-category, Product)
+- Time-based insights (Year, Month, Day)
+- Geographic spread across countries and states
 
-Customer Type Analysis (Member vs. Normal)
+### 📊 Columns in the Dataset
 
-Gender-Based Insights
+| Column             | Description                                      |
+|--------------------|--------------------------------------------------|
+| `Date`             | Order date (YYYY-MM-DD)                         |
+| `Day`, `Month`, `Year` | Components of the date                       |
+| `Customer_Age`     | Age of the customer                             |
+| `Age_Group`        | Age segmentation (e.g., Youth, Adults, Seniors) |
+| `Customer_Gender`  | Gender of the customer                          |
+| `Country`, `State` | Geographic location of the order                |
+| `Product_Category` | High-level product category                     |
+| `Sub_Category`     | More specific category                          |
+| `Product`          | Name of the product                             |
+| `Order_Quantity`   | Number of items ordered                         |
+| `Unit_Cost`        | Cost per unit                                   |
+| `Unit_Price`       | Selling price per unit                          |
+| `Cost`             | Total cost of the order                         |
+| `Revenue`          | Total revenue generated                         |
+| `Profit`           | Net profit from the transaction                 |
 
-Hourly Sales Trends
+---
 
-Ratings vs. Sales Correlation
+## 📈 Dashboard Highlights
 
-📁 Dataset
-Source: Kaggle - Walmart Sales Data
+The Power BI dashboard offers:
 
-Format: CSV
+- 🏙️ **Sales by State & Country**
+- 📦 **Revenue by Product Line**
+- 👨‍👩‍👧‍👦 **Demographics: Age Group & Gender**
+- 🕒 **Sales Trend Over Time**
+- 💳 **Order Profitability & Revenue Insights**
 
-Fields: Invoice ID, Branch, City, Customer Type, Gender, Product Line, Unit Price, Quantity, Tax, Total, Date, Time, Payment, Rating
+---
 
-🚀 How to Use
-Download the Dataset:
+## 🛠️ Getting Started
 
-Clone this repository.
+### Prerequisites
 
-Ensure supermarket_sales.csv is present in the project folder.
+- [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed on your machine.
 
-Open Power BI:
+### Steps
 
-Launch Power BI Desktop.
-
-Load the dataset and connect it with the visuals.
-
-Explore the Dashboard:
-
-Interact with slicers and filters to dive into the insights.
-
-📌 Key Insights
-Branch A shows the highest revenue despite fewer transactions.
-
-Electronic Accessories is the top-performing product line.
-
-E-wallet is the most used payment method, indicating digital adoption.
-
-Afternoon hours see peak sales activity.
-
-Member customers spend slightly more than normal customers.
-
-🛠️ Tools Used
-Power BI – for data visualization and dashboard creation
-
-Microsoft Excel / CSV – for data cleaning and preprocessing
-
-🧠 Skills Applied
-Data Cleaning and Transformation
-
-DAX Calculations
-
-Interactive Visualizations
-
-Business Intelligence Reporting
-
-📬 Contact
-For questions, feedback, or collaboration:
-
-GitHub: @Spamziesagcan
+1. **Clone this Repository**:
+   ```bash
+   git clone https://github.com/Spamziesagcan/Walmart-Sales-Dashboard.git
